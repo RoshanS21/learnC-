@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// takes vector<int> and function pointer as parameters
 void whatValues(const vector<int>& values, void(*printValue)(int)) {
     for (auto value: values) {
         printValue(value);
