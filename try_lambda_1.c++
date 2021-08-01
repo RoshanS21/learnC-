@@ -11,7 +11,7 @@ void whatValues(const vector<int>& values, void(*printValue)(int)) {
 
 int main() {
     vector<int> values = { 1,2,3,4,5 };
-
+    // pass lambda expression to print value
     whatValues(values, [](int value){cout << "Value: " << value << endl;});
 
     return 0;
